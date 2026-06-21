@@ -3,17 +3,17 @@ import Button from '../components/ui/Button'
 
 function Home() {
   return (
-    <section className="relative isolate overflow-hidden bg-surface-strong">
+    <section className="relative isolate min-h-[calc(100dvh-76px)] overflow-hidden bg-surface-strong">
       <div className="absolute inset-0 md:block">
         <img
           src={heroImage}
           alt="Robotics arena battle"
-          className="h-full w-full object-cover object-center md:translate-x-10 lg:translate-x-36"
+          className="h-full w-full object-cover object-center md:translate-x-10 lg:translate-x-40"
         />
         <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(0,0,0,1)_0%,rgba(0,0,0,0.96)_20%,rgba(0,0,0,0.12)_38%,rgba(0,0,0,0)_100%)]" />
       </div>
 
-      <div className="relative mx-auto grid max-w-360 gap-10 px-6 pb-10 pt-10 sm:px-8 md:min-h-155.25 md:pt-16 lg:px-20.25 lg:pb-23 lg:pt-19.5">
+      <div className="relative mx-auto grid min-h-[calc(100dvh-103px)] max-w-360 content-center gap-10 px-6 pb-10 pt-10 sm:px-8 md:pb-0 md:pt-0 lg:px-20.25">
         
         <div className="hidden md:inline-flex md:absolute md:right-20.25 md:top-4.5 max-w-full items-center gap-3 rounded-[5px] border border-border-subtle bg-page/75 px-5 py-2 text-[16px] text-primary shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] lg:right-20.25">
           <span className="h-2 w-2 rounded-full bg-accent" />  
