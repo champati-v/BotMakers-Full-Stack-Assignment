@@ -74,7 +74,7 @@ function CompetitionDisciplines() {
     <section className="relative isolate overflow-hidden bg-black text-primary">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_18%_12%,rgba(255,76,76,0.10)_0%,rgba(0,0,0,0)_22%),radial-gradient(circle_at_82%_18%,rgba(255,255,255,0.05)_0%,rgba(0,0,0,0)_24%),linear-gradient(180deg,rgba(0,0,0,0.88)_0%,rgba(0,0,0,0.96)_100%)]" />
       <div
-        className="pointer-events-none absolute inset-0 opacity-[0.15] mix-blend-screen"
+        className="pointer-events-none absolute inset-0 mix-blend-screen"
         style={{
           backgroundImage: `url(${circuitBg})`,
           backgroundRepeat: 'no-repeat',
@@ -89,7 +89,7 @@ function CompetitionDisciplines() {
           <p className="font-orbitron-500 text-[clamp(1rem,1.8vw,1.35rem)] uppercase tracking-[0.15em] text-accent">
             Sports
           </p>
-          <h2 className="mt-2 font-orbitron-500 text-[clamp(2.1rem,4.4vw,3.8rem)] uppercase leading-[0.95] tracking-[0.02em] text-primary">
+          <h2 className="mt-3 font-orbitron-400 text-[clamp(2rem,4vw,52px)] uppercase tracking-[0.02em] text-primary">
             Competition Disciplines
           </h2>
         </header>
@@ -112,8 +112,6 @@ function CompetitionDisciplines() {
             title={disciplines[5].title}
             image={disciplines[5].image}
           />
-
-          <div className="hidden min-h-full rounded-[12px] border border-white/10 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.05)_0%,rgba(0,0,0,0)_55%),linear-gradient(180deg,rgba(18,18,18,0.96)_0%,rgba(7,7,7,0.98)_100%)] xl:block xl:col-span-2 xl:row-span-2" />
         </div>
       </div>
     </section>

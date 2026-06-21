@@ -68,10 +68,10 @@ const Navbar = () => {
         </div>
 
         <div className="hidden shrink-0 items-center gap-6 pt-1.25 md:flex">
-          <Button variant="outline" size="sm" className="w-30.25 px-0">
+          <Button variant="outline" size="sm">
             LOGIN
           </Button>
-          <Button variant="solid" size="sm" className="w-40.75 px-0">
+          <Button variant="solid" size="sm" >
             REGISTER NOW
           </Button>
         </div>

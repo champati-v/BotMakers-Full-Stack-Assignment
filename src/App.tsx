@@ -4,6 +4,9 @@ import CompetitionsEvents from './pages/CompetitionsEvents'
 import UserJourney from './pages/UserJourney'
 import WhatIsBotLeague from './pages/WhatIsBotLeague'
 import CompetitionDisciplines from './pages/CompetitionDisciplines'
+import LeagueAdvantage from './pages/LeagueAdvantage'
+import EcosystemSponsors from './pages/EcosystemSponsors'
+import SiteFooter from './pages/SiteFooter'
 
 const App = () => {
   return (
@@ -14,6 +17,9 @@ const App = () => {
       <UserJourney />
       <WhatIsBotLeague />
       <CompetitionDisciplines />
+      <LeagueAdvantage />
+      <EcosystemSponsors />
+      <SiteFooter />
     </div>
   )
 }

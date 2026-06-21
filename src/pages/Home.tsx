@@ -35,10 +35,10 @@ function Home() {
           </p>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-            <Button variant="gradient" size="lg" className="w-full sm:w-59">
+            <Button variant="gradient" size="sm" className="w-full sm:w-59">
               CREATE ACCOUNT
             </Button>
-            <Button variant="outline" size="lg" className="w-full sm:w-59">
+            <Button variant="outline" size="sm" className="w-full sm:w-59">
               EXPLORE EVENTS
             </Button>
           </div>
